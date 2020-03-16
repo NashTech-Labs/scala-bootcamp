@@ -10,7 +10,7 @@ val a6: Int = 0
 // Hex
 val a7 = 0x20
 // if you want to store the value as a Long
-val a8 = 0x20L
+val a8: Long = 0x20L
 
 //Type Ascription
 val a9 = a8: Object //Will this work?
