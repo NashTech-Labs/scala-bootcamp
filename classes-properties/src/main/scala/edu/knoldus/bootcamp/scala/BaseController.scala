@@ -1,9 +1,9 @@
 package edu.knoldus.bootcamp.scala
 
 abstract class BaseController(db: String) {
-  def save { db.getChars() }
+  def save { db.getBytes }
 
-  def update { db.getBytes() }
+  def update { db.getBytes }
 
   def delete { db.getClass }
 
